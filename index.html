@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whack-a-Mole</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game">
+    <h1>Whack-a-Mole</h1>
+    <div class="grid">
+      <div class="mole" id="mole1"></div>
+      <div class="mole" id="mole2"></div>
+      <div class="mole" id="mole3"></div>
+      <div class="mole" id="mole4"></div>
+      <div class="mole" id="mole5"></div>
+      <div class="mole" id="mole6"></div>
+      <div class="mole" id="mole7"></div>
+      <div class="mole" id="mole8"></div>
+      <div class="mole" id="mole9"></div>
+    </div>
+    <div class="controls">
+      <button class="mode-button" data-mode="easy">Easy</button>
+      <button class="mode-button" data-mode="medium">Medium</button>
+      <button class="mode-button" data-mode="hard">Hard</button>
+    </div>
+    <p>Score: <span id="score">0</span></p>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
